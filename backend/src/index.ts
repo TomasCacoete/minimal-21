@@ -1,1 +1,7 @@
-console.log("Hello World!")
+const { blackjack } = require("./blackjack/blackjack");
+
+function main(){
+    blackjack()
+}
+
+main()
